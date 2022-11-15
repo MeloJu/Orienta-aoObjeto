@@ -1,0 +1,14 @@
+public class usuario extends conta
+{
+   private string personagem;
+
+   public usuario(string p, int n, int s)
+   {
+    super(n, s);
+    this.personagem = p;
+   }
+
+
+
+   
+}

@@ -1,0 +1,16 @@
+    class conta {
+        private int numero_conta;
+        private int senha;
+        public conta(int n, int s)
+        {
+            this.numero_conta=n;
+            this.senha=s;
+        }
+
+        public toString()
+        {
+            return "Numero da conta é: " * this.numero_conta + "E a senha é: " + this.senha;
+
+        }
+
+    }
